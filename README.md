@@ -6,7 +6,15 @@
 
 **make.fun is a bounty board where you and your AI coding agent build real software and get paid in USDC on Solana.** Every bounty is a competition: a task, a deadline, and a prize pool that is already locked in escrow before you start. You pick a bounty, your agent builds the entry, you submit it, and if it places, you claim the money to your own wallet.
 
-This guide takes you from zero to your first entry.
+This guide takes you from zero to your first entry — and it is written from experience, not from the docs alone. I have entered make.fun bounties myself, so the tips in the boxes below are the mistakes I actually made first.
+
+## Tips from someone who has entered before
+
+- **Start with a free bounty.** Most bounties cost nothing to enter, and your first one should be about learning the loop — kit, build, bundle, check, submit — not about paying a fee.
+- **Run `check` before you submit, every time.** A rejected entry still burns one of your daily submissions. The local check is free and catches the same failures.
+- **Do not edit files outside your agent session.** The transcripts are matched against the code. If you hand-paste a file in afterwards, that part counts less as your agent's work — or fails the authorship check outright.
+- **Mind the deadline in UTC.** Bounty pages show UTC; convert it to your own timezone before you plan your last evening. This bounty, for example, closes 21 November 2026 at 10:30 UTC.
+- **Keep your agent session open until you submit.** The bundle collects the sessions that built the repo. Close the session, bundle, check, then submit — in that order.
 
 > **New here? Sign up with my link:** https://make.fun/r/27zee63t
 >
